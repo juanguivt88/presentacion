@@ -1,0 +1,151 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+  }
+
+  .home-wrapper {
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6 ) ), url(https://wallpapercave.com/wp/wp1886150.png) no-repeat center top;
+    background-size: cover;
+    color: white;
+  }
+
+.site menu {
+    background-attachment: auto;
+}
+
+  #site {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr;
+  }
+
+  header {
+      position: fixed;
+      padding: 10px;
+      width: 100%;
+      float: right;
+      margin-top: 10px;
+      background-color: rgba(48, 48, 48, 0.5);
+  }
+
+  header nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 10px; 
+    padding: 10px 15px;
+}
+
+  
+.barra {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    font-size: 200%;
+}
+
+nav img {
+    width: 75px; 
+}
+
+.menu-title {
+    margin: -4% -10%;
+    line-height: 1.8;
+    font-size: 7vw;
+    color: rgb(241, 241, 241);
+    font-weight: 900;
+    padding: 200px;
+}
+
+
+section {
+    padding: 80px 0;
+}
+
+section h1{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 80px;
+    color: aliceblue;
+}
+
+
+#quiensoy .box{
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    padding: 10px;
+}
+
+#quiensoy p {
+    font-size: 24px;
+    margin-top: 40px;
+    text-align: center;
+    margin: 0;
+    width: 992px; 
+}
+
+#contacto {
+    text-align: center;
+     padding: 30px 0 70px;
+}
+
+#contacto .social {
+    margin-top: 80px;
+}
+
+#contacto .social a {
+    color: white;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: black;
+    font-size: 28px;
+    font-weight: bold;
+    height: 50px;
+    width: 50px;
+    line-height: 51px;
+    margin-right: 10px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+#contacto .social a:hover {
+    background-color: #0215c2;
+}
+
+
+#hobbys .box {
+    display: inline-block;
+    text-align: center;
+    width: 31%;  
+    margin: 1%;
+}
+
+#hobbys .box img {
+    width: 100%;
+}
+
+#hobbys  p {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+footer {
+    padding: 90px 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+.container {
+    width: 992px;
+    margin-left: auto;
+    margin-right: auto;
+}
